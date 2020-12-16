@@ -21,16 +21,6 @@ html {
     -webkit-font-smoothing: antialiased;
     font-size: 95%;
 }
-@media screen and (min-width: 800px) {
-    html {
-        font-size: 100%;
-    }
-}
-@media screen and (min-width: 1400px) {
-    html {
-        font-size: 115%;
-    }
-}
 h1,
 h2,
 h3,
@@ -151,7 +141,7 @@ abbr[title] {
     background: #fff;
     z-index: 2;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .burger__container {
         display: none;
     }
@@ -199,7 +189,7 @@ abbr[title] {
     visibility: hidden;
     z-index: 1;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .nav {
         display: block;
         visibility: visible;
@@ -212,7 +202,7 @@ abbr[title] {
     height: 100%;
     width: 100%;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .nav--active .nav {
         width: 100px;
     }
@@ -224,12 +214,12 @@ abbr[title] {
     padding: 0;
     width: 50%;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .nav__list {
         width: auto;
     }
 }
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 999px) {
     .nav__list {
         transform: translateY(-25px);
         opacity: 0;
@@ -247,7 +237,7 @@ abbr[title] {
 .nav__list li:last-of-type {
     margin-bottom: 0;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .nav__list li {
         margin-bottom: 1.75em;
     }
@@ -263,7 +253,7 @@ abbr[title] {
 .nav__list a:hover {
     color: #111;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .nav__list a {
         font-size: 1em;
     }
@@ -290,7 +280,7 @@ body.nav--active {
 main {
     padding: 3rem 1.5rem 1rem;
 }
-@media screen and (min-width: 800px) {
+/*@media screen and (min-width: 800px) {
     main {
         padding-left: calc(1.5rem + 100px);
     }
@@ -299,18 +289,13 @@ main {
     main {
         padding-top: calc(3rem + 4rem);
     }
-}
+}*/
 .splash-container {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 14px;
-}
-@media screen and (min-width: 800px) {
-    .splash-container {
-        font-size: 18px;
-    }
 }
 .splash h1 {
     font-size: 4em;
