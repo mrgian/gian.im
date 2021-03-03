@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://rsms.me/inter/inter.css');
 html,
 body {
     background-color: #fff;
@@ -17,7 +16,7 @@ html {
     box-sizing: inherit;
 }
 html {
-    font-family: Inter, Arial;
+    font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: 95%;
 }
