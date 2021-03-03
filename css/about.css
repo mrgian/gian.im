@@ -17,7 +17,7 @@ html {
     box-sizing: inherit;
 }
 html {
-    font-family: Inter;
+    font-family: Inter, Arial;
     -webkit-font-smoothing: antialiased;
     font-size: 95%;
 }
