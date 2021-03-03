@@ -40,7 +40,7 @@ html {
 	font-size: 95%
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:1000px) {
 	html {
 		font-size: 100%
 	}
@@ -193,7 +193,7 @@ abbr[title] {
 	z-index: 2
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:1000px) {
 	.burger__container {
 		display: none
 	}
@@ -251,7 +251,7 @@ abbr[title] {
 	z-index: 1
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:1000px) {
 	.nav {
 		display: block;
 		visibility: visible;
@@ -266,7 +266,7 @@ abbr[title] {
 	width: 100%
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:1000px) {
 	.nav--active .nav {
 		width: 100px
 	}
@@ -280,13 +280,13 @@ abbr[title] {
 	width: 50%
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:1000px) {
 	.nav__list {
 		width: auto
 	}
 }
 
-@media screen and (max-width:799px) {
+@media screen and (max-width:999px) {
 	.nav__list {
 		transform: translateY(-25px);
 		opacity: 0
@@ -307,7 +307,7 @@ abbr[title] {
 	margin-bottom: 0
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:1000px) {
 	.nav__list li {
 		margin-bottom: 1.75em
 	}
@@ -327,7 +327,7 @@ abbr[title] {
 	color: #111
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:1000px) {
 	.nav__list a {
 		font-size: 1em
 	}
@@ -361,13 +361,13 @@ main {
 	padding: 3rem 1.5rem 1rem
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:1000px) {
 	main {
 		padding-left: calc(1.5rem + 100px)
 	}
 }
 
-@media screen and (max-width:799px) {
+@media screen and (max-width:999px) {
 	main {
 		padding-top: calc(3rem + 4rem)
 	}
