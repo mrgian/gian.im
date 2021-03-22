@@ -525,13 +525,13 @@ pre[class*=language-] {
 	width: 100%;
 	max-width: 700px;
 	margin: 0 auto;
-	padding: 10px;
+	padding-bottom: 10px;
 	display: block
 }
 
 #post__title {
 	margin-top: 0;
-	margin-left: 10px;
+	margin-left: 0px;
 	margin-bottom: .5rem
 }
 
