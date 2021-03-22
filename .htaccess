@@ -1,3 +1,2 @@
 RewriteEngine On
 RewriteRule ^([A-Za-z0-9-]+)/?$ /pages/$1.html [NC]
-IndexOptions +Charset=UTF-8
