@@ -535,6 +535,19 @@ pre[class*=language-] {
 	margin-bottom: .5rem
 }
 
+#post__link {
+	color: #111;
+	font-size: larger;
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+
+#post_link_text {
+	color: #111;
+	font-size: medium;
+	margin-top: 5px;
+}
+
 .post__date {
 	color: #9b9b9b;
 	font-size: .8rem
